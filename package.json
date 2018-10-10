@@ -1,0 +1,41 @@
+{
+  "name": "@selfpub/eslint-config",
+  "version": "0.0.1",
+  "description": "Selfpub's base JS ESLint config.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selfpub-org/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "selfpub",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "bugs": {
+    "url": "https://github.com/selfpub-org/eslint-config/issues"
+  },
+  "homepage": "https://github.com/selfpub-org/eslint-config",
+  "author": "Ilya Reshetnikov <inbox@devxom.tech>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
