@@ -1,17 +1,15 @@
+"use strict";
 /* global module */
-
-module.export = {
-  "plugins": [
-    "prettier"
-  ],
-  "extends": "prettier",
-  "parser": "babel-eslint",
-  "rules": {
+module.exports = {
+  plugins: ["prettier"],
+  extends: "prettier",
+  parser: "babel-eslint",
+  rules: {
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "all"
-      }
+        trailingComma: "all",
+      },
     ],
     "object-curly-spacing": 0,
     "no-unneeded-ternary": 0,
@@ -29,12 +27,12 @@ module.export = {
     "no-new": 0,
     "no-plusplus": 0,
     "no-unused-expressions": 0,
-    "radix": 0,
+    radix: 0,
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "array-callback-return": 0,
     "import/no-extraneous-dependencies": 0,
-    "max-len": 0
-  }
+    "max-len": 0,
+  },
 };
