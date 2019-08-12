@@ -1,7 +1,7 @@
 # Changelog
 
 
-## Release v2.0.1
+## Release v2.0.0
 
 **Changes:**
 * Updated dependencies [a2ab962](https://github.com/selfpub-org/eslint-config/commit/a2ab962)
