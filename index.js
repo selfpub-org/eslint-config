@@ -308,7 +308,7 @@ module.exports = {
     ],
     "react/jsx-key": "error",
 
-    "react/jsx-max-depth": ["warn", { max: 3 }],
+    "react/jsx-max-depth": 0,
     "react/jsx-no-bind": "warn", // error
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
